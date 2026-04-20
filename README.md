@@ -11,6 +11,12 @@ Remote Sunrise Helper for Windows 2026.14 - Unauthenticated Remote Code Executio
 # Tested on: Windows 10 / Windows 11
 ```
 
+# Identification:
+```
+# nmap -p- -T4 <target> --script ssl-cert
+# Look for SSL cert with subject: CN=SecureHTTPServer/O=Evgeny Cherpak/C=US
+```
+
 ## syntax:
 ```
 python poc.py <target> <command>
